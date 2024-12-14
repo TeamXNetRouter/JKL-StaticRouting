@@ -35,7 +35,7 @@ Before you proceed with the steps, make sure you have the following prerequisite
 4. Install all Mininet companions by running the following command:
 
     ```bash
-    mininet/util/install.sh
+    ./util/install.sh -a 
     ```
 
 5. Once the installation is complete, you can proceed to the next steps.
