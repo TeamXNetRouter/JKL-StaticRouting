@@ -58,7 +58,7 @@ Follow the steps below to get the system up and running on your computer:
 3. Change the config storage place in the static_routing_2rtr.py file according to your ubuntu environment (line 39)
 
      ```bash
-   ('/etc/frr', '/home/yourusername/projects/frr-config/%(name)s'),
+   ('/etc/frr', '/home/yourusername/net101/projects/frr-config/%(name)s'),
     ```
 
 4. Run the project with the following command:
