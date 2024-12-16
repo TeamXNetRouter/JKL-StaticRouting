@@ -52,7 +52,7 @@ Follow the steps below to get the system up and running on your computer:
 2. Navigate to the project directory:
 
     ```bash
-    cd static-routing
+    cd JKL-StaticRouting
     ```
 
 3. Run the project with the following command:
