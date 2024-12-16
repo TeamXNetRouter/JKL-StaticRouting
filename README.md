@@ -71,6 +71,7 @@ Follow the steps below to get the system up and running on your computer:
 
     ```bash
     h1 ping h2
+    h1 traceroute -n h2
     ```
 
 ---
