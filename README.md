@@ -54,14 +54,20 @@ Follow the steps below to get the system up and running on your computer:
     ```bash
     cd JKL-StaticRouting
     ```
+    
+3. Change the config storage place in the static_routing_2rtr.py file according to your ubuntu environment (line 39)
 
-3. Run the project with the following command:
-
-    ```bash
-    sudo python3 static_routing_2rtr.py -c frr-config
+     ```bash
+   ('/etc/frr', '/home/yourusername/projects/frr-config/%(name)s'),
     ```
 
-4. To test the setup, you can use the following command in the terminal:
+4. Run the project with the following command:
+
+    ```bash
+    sudo python3 static_routing_2rtr.py
+    ```
+
+6. To test the setup, you can use the following command in the terminal:
 
     ```bash
     h1 ping h2
